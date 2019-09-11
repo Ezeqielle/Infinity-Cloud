@@ -1,0 +1,34 @@
+.btn-navbar {
+    border: none;
+}
+
+.myBRAND {
+    padding-right: 1em;
+}
+
+.container {
+    padding-top:6em;
+}
+
+.logo_form {
+    width: 15%;
+    background-color: paleturquoise;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.required{
+    color: crimson;
+    padding-left: 0.3em;
+}
+
+.pswd{
+    color: gray();
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+
+.text-gray-soft{
+    padding-top: 1em;
+}

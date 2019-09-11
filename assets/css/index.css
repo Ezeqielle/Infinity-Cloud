@@ -1,0 +1,88 @@
+@charset "utf-8";
+* {
+   *box-sizing: border-box;
+}
+
+body, HTML {
+    margin: 0;
+    height: 100%;
+    font-size: 2vw;
+    font-family: lato;
+    color: #666;
+}
+.conteneur {
+    width: 100%;
+}
+@media (max-width: 659px) {}
+@media (min-width: 660px) {}
+@media (min-width: 992px) {
+    body, HTML {
+        font-size: 20px;
+    }
+}
+
+.outerwrap{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*
+    fixed = parallax
+     scroll = normal
+    */
+
+    background-attachment: fixed;
+    background-image: url("/assets/imgs/background.jpg");
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ptext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    line-height: 4vw;
+}
+
+.border {
+    background-color: #111;
+    color: #fff;
+    padding: 1em;
+
+}
+
+.trans {
+    background-color: transparent;
+}
+
+.hero-separator {
+    padding-top: 1em;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    line-height: 4vw;
+}
+
+a:link
+{
+    color:#000;
+    text-decoration:none;
+}
+
+.bborder {
+    background-color: cornflowerblue;
+    color: #fff;
+    margin: 2em;
+    padding: 0.8em;
+    font-size: 0.8em;
+}

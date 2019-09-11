@@ -1,0 +1,4 @@
+attribut universel :
+https://developer.mozilla.org/fr/docs/Web/HTML/Attributs_universels/data-*
+https://jeanbaptistemarie.com/notes/code/php/copier-un-dossier-avec-php.html
+https://jeanbaptistemarie.com/notes/code/php/supprimer-un-dossier-avec-php.html

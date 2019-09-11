@@ -1,0 +1,29 @@
+
+.btn-navbar {
+    border: none;
+}
+
+.myBRAND {
+    padding-right: 1em;
+}
+
+header{
+    background: url("/assets/imgs/background_cloud.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.contenu {
+    padding-top: 35%;
+}
+
+.main-title {
+    font-weight: 500;
+}
+
+.btn_SignIN {
+    border-radius: 0;
+    border: 1px solid white;
+    padding: 1em 2em;
+}
